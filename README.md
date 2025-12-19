@@ -1,59 +1,83 @@
-# LandingpageAdvocacia
+# Landingpage Advocacia (Angular)
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.0.4.
+Landing page institucional para escritório de advocacia, criada como projeto de portfólio para praticar desenvolvimento **Front-end com Angular**.
+
+O foco do projeto é **responsividade**, **organização de componentes** e **estilização com SCSS**, aplicando um padrão de estrutura próximo ao que uso em projetos reais.
+
+> Projeto em andamento (portfólio): a ideia é mostrar evolução de layout, componentização e boas práticas no Angular.
+
+## Tech Stack
+
+- Angular
+- TypeScript
+- SCSS
 
 ## Development server
 
-To start a local development server, run:
+Para iniciar o servidor local:
 
 ```bash
-ng serve
+npm install
+npm start
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Depois, acesse `http://localhost:4200/`. A aplicação recarrega automaticamente ao salvar alterações.
 
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+> Alternativa (se preferir Angular CLI):
 
 ```bash
-ng generate component component-name
-```
+npx ng serve
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
 ```
 
 ## Building
 
-To build the project run:
+Para gerar a build de produção:
 
 ```bash
-ng build
+npm run build
+
 ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+Os arquivos gerados ficam em `dist/`.
 
-## Running unit tests
+## Code scaffolding
 
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
+Para gerar componentes via Angular CLI:
 
 ```bash
-ng test
+npx ng generate component component-name
+
 ```
 
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
+Para ver outros schematics:
 
 ```bash
-ng e2e
+npx ng generate --help
+
 ```
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+## Tests
 
-## Additional Resources
+Para rodar testes unitários (se o projeto estiver configurado para isso):
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+```bash
+npx ngtest
+
+```
+
+## About
+
+Este repositório existe principalmente para **demonstração no GitHub/portfólio**.
+
+Se você quiser rodar localmente, os passos acima já são suficientes.
+
+```
+
+Se você quiser deixar**ainda mais “recrutador-friendly”**, me fala 3 coisas e eu ajusto em 1 minuto:
+1) você quer escrever como**“landing page institucional”** ou**“site institucional”**?
+2) você está usando**standalone components** ou module-based? (se não souber, deixa)
+3) já tem quais seções? (ex.: Home, Sobre, Áreas, Contato)
+::contentReference[oaicite:0]{index=0}
+
+```
