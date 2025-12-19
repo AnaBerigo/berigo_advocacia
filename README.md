@@ -71,13 +71,3 @@ npx ngtest
 Este repositório existe principalmente para **demonstração no GitHub/portfólio**.
 
 Se você quiser rodar localmente, os passos acima já são suficientes.
-
-```
-
-Se você quiser deixar**ainda mais “recrutador-friendly”**, me fala 3 coisas e eu ajusto em 1 minuto:
-1) você quer escrever como**“landing page institucional”** ou**“site institucional”**?
-2) você está usando**standalone components** ou module-based? (se não souber, deixa)
-3) já tem quais seções? (ex.: Home, Sobre, Áreas, Contato)
-::contentReference[oaicite:0]{index=0}
-
-```
