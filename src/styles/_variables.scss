@@ -1,0 +1,16 @@
+$fonte-texto: 'Montserrat', sans-serif;
+$fonte-titulo: 'Playfair', sans-serif;
+
+$amarelo-claro: #f3f3f1;
+$azul: #102d4b;
+$amarelo: #cba952;
+$amarelo-2: #9b7f36;
+$cinza: rgba(219, 219, 217, 0.2);
+$alpha-80: 0.8;
+
+$bg-amarelo-gradient-80: linear-gradient(
+  90deg,
+  rgba($amarelo, $alpha-80) 0%,
+  rgba($amarelo-2, $alpha-80) 50%,
+  rgba($amarelo, $alpha-80) 100%
+);

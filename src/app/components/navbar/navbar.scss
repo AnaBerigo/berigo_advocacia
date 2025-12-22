@@ -1,0 +1,32 @@
+@use '../../../styles/variables' as *;
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: rgba($amarelo-claro, 0.95);
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.logo img {
+  height: 78px;
+}
+
+a {
+  text-decoration: none;
+  color: $azul;
+  font-weight: 700;
+}
+
+ul {
+  font-family: $fonte-titulo, serif;
+  text-transform: uppercase;
+  list-style: none;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
