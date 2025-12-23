@@ -1,6 +1,8 @@
 # Landingpage Advocacia (Angular)
 
-Landing page institucional para escritório de advocacia, criada como projeto de portfólio para praticar desenvolvimento **Front-end com Angular**.
+<img width="1920" height="1080" alt="Cover (2)" src="https://github.com/user-attachments/assets/b4a1529c-305f-4adc-834d-5596823450e0" />
+
+<br> Landing page institucional para escritório de advocacia, criada como projeto de portfólio para praticar desenvolvimento **Front-end com Angular**.
 
 O foco do projeto é **responsividade**, **organização de componentes** e **estilização com SCSS**, aplicando um padrão de estrutura próximo ao que uso em projetos reais.
 
@@ -71,3 +73,4 @@ npx ngtest
 Este repositório existe principalmente para **demonstração no GitHub/portfólio**.
 
 Se você quiser rodar localmente, os passos acima já são suficientes.
+
