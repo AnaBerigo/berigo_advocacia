@@ -1,4 +1,4 @@
-# Landingpage Advocacia (Angular)
+# ⚖️ BerigoAdvocacia - Landing Page
 
 <img width="1920" height="1080" alt="Cover (2)" src="https://github.com/user-attachments/assets/b4a1529c-305f-4adc-834d-5596823450e0" />
 
@@ -73,4 +73,5 @@ npx ngtest
 Este repositório existe principalmente para **demonstração no GitHub/portfólio**.
 
 Se você quiser rodar localmente, os passos acima já são suficientes.
+
 
