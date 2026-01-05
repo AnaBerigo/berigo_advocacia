@@ -1,21 +1,117 @@
 @use '../../../styles/variables' as *;
 
-section {
-  background-image: url('/fundo.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100vh;
+// section {
+//   background-image: url('/fundo.png');
+//   background-size: cover;
+//   background-repeat: no-repeat;
+//   min-height: 100vh;
+//   position: relative;
+//   box-sizing: border-box;
+//   // padding: 140px 54px;
+// }
+
+// .cta-container {
+//   display: flex;
+//   flex-direction: row;
+//   height: 100%;
+// }
+
+// .cta-texto {
+//   width: 50%;
+//   display: flex;
+//   flex-direction: column;
+//   gap: 80px;
+//   padding: 140px 54px;
+// }
+
+// .cta-title {
+//   color: $amarelo-claro;
+//   text-transform: uppercase;
+//   font-weight: 800;
+// }
+
+// .cta-description {
+//   color: $amarelo-claro;
+//   font-weight: 500;
+//   line-height: 1.5;
+
+//   & span {
+//     font-weight: 700;
+//   }
+// }
+
+// span {
+//   color: $amarelo;
+// }
+
+// .cta-containerImagens {
+//   display: flex;
+//   align-items: flex-end;
+//   justify-content: flex-end;
+//   width: 50%;
+// }
+
+// .cta-image {
+//   width: 90%;
+// }
+
+// @media (max-width: 900px) {
+//   .cta-container {
+//     flex-direction: column;
+//     height: 100%;
+//   }
+
+//   .cta-texto {
+//     width: 100%;
+//     gap: 40px;
+//   }
+
+//   .cta-title {
+//     font-size: 2.5rem;
+//   }
+
+//   .cta-description {
+//     font-size: 1rem;
+//   }
+
+//   .cta-containerImagens {
+//     display: flex;
+//     align-items: flex-end;
+//     justify-content: flex-end;
+//     width: 100%;
+//   }
+// }
+
+//--------------------------------------------------------
+
+.sec1 {
   position: relative;
-  box-sizing: border-box;
-  // padding: 140px 54px;
+  min-height: 100vh;
+  overflow: hidden;
 }
 
-.cta-container {
+.bg {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  will-change: transform;
+  pointer-events: none;
+}
+
+.bg2 {
+  background-image: url('/advogados.webp');
+}
+
+.bg1 {
+  background-image: url('/fundo.webp');
+}
+.content {
+  position: relative;
   display: flex;
   flex-direction: row;
-  height: 100%;
+  z-index: 2;
 }
-
 .cta-texto {
   width: 50%;
   display: flex;
@@ -44,111 +140,7 @@ span {
   color: $amarelo;
 }
 
-.cta-containerImagens {
-  display: flex;
-  align-items: flex-end;
-  justify-content: flex-end;
-  width: 50%;
-}
-
-.cta-image {
-  width: 90%;
-}
-
-// @use '../../../styles/variables' as *;
-
-// section {
-//   // margin-top: 82px;
-
-//   min-height: 80vh;
-//   height: calc(100vh - 82px);
-
-//   background-image: url('/fundo.png');
-//   background-size: cover;
-//   background-repeat: no-repeat;
-//   background-position: 70% 50%;
-
-//   padding: clamp(32px, 6cqw, 140px) clamp(16px, 4cqw, 54px);
-
-//   /* 🔥 faz o texto reagir ao tamanho do section */
-//   container-type: inline-size;
-// }
-
-// .cta-container {
-//   width: min(50%, 560px);
-//   height: 100vh;
-//   display: flex;
-//   flex-direction: column;
-//   gap: clamp(24px, 4cqw, 80px);
-// }
-
-// .cta-title {
-//   color: $amarelo-claro;
-//   text-transform: uppercase;
-//   font-weight: 800;
-
-//   /* título cresce/diminui com o tamanho do section */
-//   font-size: clamp(28px, 6cqw, 72px);
-//   line-height: 1.05;
-// }
-
-// .cta-description {
-//   color: $amarelo-claro;
-//   font-weight: 500;
-
-//   /* texto acompanha */
-//   font-size: clamp(14px, 1.8cqw, 20px);
-//   line-height: 1.5;
-
-//   span {
-//     font-weight: 700;
-//   }
-// }
-
-// span {
-//   color: $amarelo;
-// }
-
-// $gold-highlight: #d6b16a; // brilho
-// $gold-body: #a77a2b; // miolo
-
-// .hero {
-//   position: relative;
-
-//   &::after {
-//     content: '';
-//     position: absolute;
-
-//     // posição e tamanho (ajuste conforme seu layout)
-//     left: 0;
-//     top: 70%; // ou bottom: 3rem;
-//     width: min(55vw, 52rem);
-//     height: 6px;
-
-//     // “duas linhas” + miolo
-//     background: linear-gradient(
-//       to bottom,
-//       rgba($gold-highlight, 0.95) 0,
-//       rgba($gold-highlight, 0.95) 1px,
-//       rgba($gold-body, 0.65) 1px,
-//       rgba($gold-body, 0.65) calc(100% - 1px),
-//       rgba($gold-highlight, 0.85) calc(100% - 1px),
-//       rgba($gold-highlight, 0.85) 100%
-//     );
-
-//     // leve profundidade (bem sutil)
-//     box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.35), 0 1px 0 rgba(0, 0, 0, 0.45);
-
-//     pointer-events: none;
-//   }
-// }
-
 @media (max-width: 900px) {
-  .cta-container {
-    flex-direction: column;
-    height: 100%;
-  }
-
   .cta-texto {
     width: 100%;
     gap: 40px;
@@ -160,12 +152,5 @@ span {
 
   .cta-description {
     font-size: 1rem;
-  }
-
-  .cta-containerImagens {
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
-    width: 100%;
   }
 }
